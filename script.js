@@ -14,6 +14,7 @@ function loading() {
         img.src = "assets/afternoon.png";
         document.body.style.background = "#CF8752";
     } else {
+        msge.innerHTML = `Boa Noite !`;
         //boa noite
         img.src = "assets/night.png";
         document.body.style.background = "#221A26";
