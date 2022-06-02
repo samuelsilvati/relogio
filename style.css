@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,200;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+
+body {
+    background: rgb(75, 127, 224);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 38px;
+    padding: 15px 0;
+    text-shadow: 0 0 3px rgb(53, 53, 53);
+}
+
+section {
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    padding: 10px 20px;
+}
+
+div#msg {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+div#horas {
+    color: rgb(70, 70, 70);
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+section img {
+    max-width: 250px;
+}
+
+footer{
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 2px rgb(53, 53, 53);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(139, 151, 255);
+}
