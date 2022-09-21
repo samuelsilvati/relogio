@@ -6,17 +6,21 @@ function loading() {
     var hora = data.getHours();
     if (hora >= 0 && hora < 12) {
         //bom dia
-        msge.innerHTML = `Bom Dia !`;
+        msge.innerHTML = `Bom Dia!`;
+        bgImage.style.backgroundImage = "url('assets/morning.webp')";
+        img.src = "assets/morning.png";
         document.body.style.background = "#5A7E96";
         img.src = "assets/morning.png";
     } else if (hora >= 12 && hora < 18) {
         //boa tarde
-        msge.innerHTML = `Boa Tarde !`;
+        msge.innerHTML = `Boa Tarde!`;
+        bgImage.style.backgroundImage = "url('assets/afternoon.webp')";
         img.src = "assets/afternoon.png";
         document.body.style.background = "#CF8752";
     } else {
-        msge.innerHTML = `Boa Noite !`;
+        msge.innerHTML = `Boa Noite!`;
         //boa noite
+        bgImage.style.backgroundImage = "url('assets/night.webp')";
         img.src = "assets/night.png";
         document.body.style.background = "#221A26";
     }
