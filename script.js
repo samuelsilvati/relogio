@@ -1,5 +1,6 @@
 function loading() {
     var img = document.getElementById("image");
+    var bgImage = document.getElementById('background')
     var data = new Date();
     var msge = document.getElementById("msg");
     var hora = data.getHours();
