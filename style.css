@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;500;600&family=Roboto+Mono:wght@600&display=swap');
 
 * {
     margin: 0; padding: 0;
@@ -59,9 +59,9 @@ div#msg {
 
 div#horas {
     color: rgb(70, 70, 70);
-    font-family: monospace;
-    font-size: 100px;
-    font-weight: 600;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 93px;
+  font-weight: 600;
 }
 
 section img {
@@ -97,6 +97,6 @@ footer a:hover {
   }
 
   div#horas {
-    font-size: 60px;
+    font-size: 54px;
   }
 }
