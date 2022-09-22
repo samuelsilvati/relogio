@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <a href="https://samuelsilvati.github.io/relogio//"><img alt="thumbnail" src="assets/clock_thumb.png" width="100%"></a>
+  <a href="https://samuelsilvati.github.io/relogio//"><img alt="thumbnail" src="assets/clock.gif" width="100%"></a>
 </p>
 
 ## ✨ Tecnologias
