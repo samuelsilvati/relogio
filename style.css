@@ -87,6 +87,9 @@ footer a:hover {
 }
 
 @media (max-width: 720px) {
+  #background {
+    padding-bottom: 50px; 
+  }
   header h1 {
     font-size: 35px;
   }
