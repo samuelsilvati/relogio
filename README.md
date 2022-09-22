@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Relógio desenvolvido em HTML CSS e JavaScript atravéz do curso de JavaScript do Curso em Vídeo. O site muda a cor de fundo e a foto conforme o horário.
+Relógio desenvolvido em HTML CSS e JavaScript atravéz do curso de JavaScript do Curso em Vídeo. O site muda a imagem de fundo e a mensagem conforme a hora do dia.
 
 ## 🚀 Link do Projeto
 
