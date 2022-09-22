@@ -85,3 +85,18 @@ footer a {
 footer a:hover {
     color: rgb(165, 165, 165);
 }
+
+@media (max-width: 720px) {
+  header h1 {
+    font-size: 35px;
+  }
+  
+
+  div#msg {
+    font-size: 30px;
+  }
+
+  div#horas {
+    font-size: 60px;
+  }
+}
